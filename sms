@@ -1,0 +1,16 @@
+url = "https://push.1c-connect.com/v1/conference/send/message/"
+
+
+headers = {
+    "Accept": "application/json",
+    "Content-Type": "application/json",
+    "Authorization": "Basic QWN0aXZwbHVzc21zOjEyM0FjdGl2cGx1c3Ntcw==",
+    "Content-Length": "129"
+}
+
+data = {
+    "author_id": "cfb802b8-7d68-4988-a157-b5b61dd803d1",
+    "conference_id": "3bea6b2f-5077-4424-abdf-23e2bfdf613d",
+    "text": "%text%\n\nFrom: %from%"
+
+}
